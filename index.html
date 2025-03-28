@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Rupesh Sharma</title>
+    <link rel="icon" href="assests/Logo/RS.webp">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="dist/hamburgers.css" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+
+  <body class="">
+<div class="progress-loader">
+    <div class="progresse">
+
+    </div>
+</div>
+
+    <div class="loading-content">
+      <nav class="navbar">
+       <a href="index.html"><h1 class="logo"><img style="height: 13vh;" src="assests/Logo/RS.webp" alt=""></h1></a>   
+
+          <ul class="nav-links me-5">
+              <li><a href="#">Home</a></li>
+              <li><a href="#About">About</a></li>
+              <li><a href="#Project">Projects</a></li>
+              <li><a href="#Menu">Skills</a></li>
+              <li><a href="#Contact">Contact</a></li>
+            </ul>
+            
+            <!-- nav side -->
+            <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+        </nav>
+        <div class="side-nav mt-5" id="sideNav">
+            <a href="javascript:void(0)" class="close-btn" style="margin-top: 34px;" onclick="toggleMenu()">&times;</a>
+        <a href="#">Home</a>
+        <a href="#About">About</a>
+        <a href="#Project">Projects</a>
+        <a href="#Menu">Skills</a>
+        <a href="#Contact">Contact</a>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="Scroll"></div>
+    <main class="text-light ">
+     <h1 id="heading" class="text-center fw-bold  text-uppercase ">Porfolio</h1>
+    <img id="my-img" class="img-fluid  border border-light border-3  me-5"src="\assests\Rupeshsharma.jpg" alt="">
+    <div class="down">
+    <h2 class="Name">Rupesh Sharma </h2>
+    <img class="img-fluid mx-auto" style="height: 10vh;" src="assests/profile.gif" alt=""> 
+    <h5 id='changer' className='text-center text-secondary h4'></h5>
+    
+    <p class="Name-Des">As a passionate and skilled Full Stack Developer, I specialize in the MERN Stack, Python, Django, PHP, SQL, and REST APIs. I am eager to contribute my expertise to your team and work on innovative projects.
+        I have successfully developed and deployed multiple projects, including a Hotel Booking site, Travel Booking site, Online Admission Website, and a Voting Eligibility Checker, showcasing my ability to build scalable and efficient web applications. My proficiency in frontend technologies (React.js, Bootstrap, JavaScript, CSS) and backend frameworks (Node.js with Express.js, Django) enables me to create seamless end-to-end solutions.
+        Additionally, my internships at Code Clause, Internship Studio, and Heuristic Technopark have strengthened my skills in API integration, database management (MongoDB, MySQL), and cloud deployment. I am eager to bring my problem-solving abilities, technical expertise, and passion for development to a dynamic team</p>
+    </div>
+     
+
+
+      <a href="assests/Resume/Rupesh_Sharma.pdf"> <button alt="Rupesh" onclick="Resumes()">
+        <i>R</i>
+        <i>E</i>
+        <i>S</i>
+        <i>U</i>
+        <i>M</i>
+        <i>E</i>
+      </button></a>
+<br><br>
+        <h2 id="About" class="i-am"> What I Know </h2>
+   
+<div class="details">
+    <div class="hover">
+        <h3 class="skill">web Developer</h3>
+        <p class="skills "> A Web Developer designs and builds websites by combining HTML, CSS, JavaScript. They ensure smooth user experience, fast performance, and secure web applications. With knowledge of frontend, they can develop full-fledged applications that meet modern industry standards A Web Developer is responsible for designing, developing, and maintaining websites and web applications.to create dynamic, responsive, and user-friendly web solutions.</p>
+    </div>
+        <hr >
+    <div class="hover">
+        <h3 class="skill">Frontend Developer</h3>
+        <p class="skills">A Frontend Developer specializes in building and optimizing the user-facing part of web applications. Using technologies like HTML, CSS, JavaScript, React.js, and UI frameworks, they ensure that web applications are responsive, fast, and visually appealing. They also work closely with backend developers to integrate APIs and enhance functionality.</p>
+    </div>
+        <hr>
+    <div class="hover"> 
+        <h3 class="skill">Full Stack Developer</h3>
+        <p class="skills">A Full Stack Developer is a valuable asset in web development, as they handle both client-side (frontend) and server-side (backend) development. Their expertise in multiple technologies allows them to create scalable, secure, and high-performance applications, making them an essential part of any development team.</p>
+    </div>
+</div>
+    </main>
+<br><br>
+
+
+<!--  Projects -->
+<h2 class="i-am" id="Project"> Projects </h2>
+<h3 class="skill">Voting Age Checker</h3>
+<div class="P-Voting" id="P-Voting1">
+    <img id="voting-img" class="img-fluid  mt-4 p-2" style="height: 50vh;" src="Projects/Voting.jpg" alt="">
+    <p class="P-Details">This project is a simple web application that determines whether a user is eligible to vote based on their age. The user enters their age in a form. If the user is 18 years or older, a message appears: "You are eligible for voting." If the user is under 18, a message appears: "You are not eligible for voting." HTML – Structure of the form and display messages CSS – Styling for a clean and user-friendly interface JavaScript – Logic to check the age and display eligibility status</p>
+ <ul class="p-btn">
+       <buttton class="btn-skill">HTML</buttton>
+       <buttton class="btn-skill">CSS</buttton>
+       <buttton class="btn-skill">JAVASCRIPT</buttton>
+    </ul>
+    <a class="show-Project" target="_blank" href="https://rupesh1774.github.io/Voting/"> View Project ↗</a>
+</div><br>
+<h3 class="skill">ToDo List</h3>
+<div class="P-Voting" id="P-Todo_List">
+    <img id="voting-img" class="img-fluid  mt-4 p-2" style="height: 50vh;" src="Projects/WhatsApp Image 2025-03-27 at 11.30.25_159dad54.jpg" alt="">
+    <p class="P-Details">A To-Do List helps you organize tasks and stay productive. You can create one manually on paper, digitally in an app in this I Use HTML CSS & JavaScript Languages for Developing Website</p>
+ <ul class="p-btn">
+       <buttton class="btn-skill">HTML</buttton>
+       <buttton class="btn-skill">CSS</buttton>
+       <buttton class="btn-skill">JAVASCRIPT</buttton>
+    </ul>
+    
+    <a class="show-Project" target="_blank" href="https://rupesh1774.github.io/TO-DO-LIST/"> View Project ↗</a>
+</div><br>
+
+<h2 class="i-am"> Resume </h2>
+<div class="d-md-flex justify-content-center mt-4" id="Menu">
+    <button id="Edu" class="Menu" onclick="Education()"> Education
+    </button><br><br>
+    <button id="Ski" class="Menu" onclick="Skills()"> Skills
+    </button><br><br>
+    <button id="Exp" class="Menu" onclick="Experince()"> experience
+    </button>
+</div>
+<span id="loading" class="loader"></span>
+
+<!--  Skill s -->
+  <div class="skillss">
+<h2 id="N-SKill" class="i-am"> Skills </h2>
+<div class="container">
+    <div class="skill-container">
+        <!-- Frontend Section -->
+        <div class="skill-section">
+            <h3 class="skill-H">Frontend</h3>
+
+            <p>HTML<img class="img-fluid" style="height: 8vh;" src="assests/Skills/icons8-html-48.png" alt=""></p>
+            <div class="progress-bar">
+                <div class="progress fill-html"></div>
+            </div>
+
+            <p>CSS <img class="img-fluid" style="height: 8vh;" src="assests/Skills/icons8-css-96.png" alt=""></p>
+            <div class="progress-bar">
+                <div class="progress fill-css"></div>
+            </div>
+
+            <p>Bootstrap <img class="img-fluid" style="height: 8vh;" src="assests/Skills/icons8-bootstrap-100.png" alt=""> </p>
+            <div class="progress-bar">
+                <div class="progress fill-Boot"></div>
+            </div>
+
+            <p>JavaScript <img class="img-fluid" style="height: 8vh;" src="assests/Skills/icons8-javascript-96.png" alt=""></p>
+            <div class="progress-bar">
+                <div class="progress fill-js"></div>
+            </div>
+
+            <p>JQuery <img class="img-fluid" style="height: 8vh;" src="assests/Skills/icons8-jquery-96 (1).png" alt=""> </p>
+            <div class="progress-bar">
+                <div class="progress fill-jQ"></div>
+            </div>
+
+            <p>React JS <img class="img-fluid" style="height: 8vh;" src="assests/Skills/icons8-react-80.png" alt=""></p>
+            <div class="progress-bar">
+                <div class="progress fill-RJS"></div>
+            </div>
+        </div>
+
+        <!-- Backend Section -->
+        <div class="skill-section">
+            <h3 class="skill-H">Backend</h3>
+
+            <p>MongoDB <img class="img-fluid" style="height: 8vh;" src="assests/Skills/icons8-mongodb-96.png" alt=""></p>
+            <div class="progress-bar">
+                <div class="progress fill-MDB"></div>
+            </div>
+
+            <p>Express.js <img class="img-fluid" style="height: 8vh;" src="assests/Skills/icons8-express-js-96.png" alt=""></p>
+            <div class="progress-bar">
+                <div class="progress fill-EJS"></div>
+            </div>
+
+            <p>Node.js <img class="img-fluid" style="height: 8vh;" src="assests/Skills/icons8-node-js-96.png" alt=""></p>
+            <div class="progress-bar">
+                <div class="progress fill-NJS"></div>
+            </div>
+
+            <p>Python <img class="img-fluid" style="height: 8vh;" src="assests/Skills/icons8-python-96.png" alt=""></p>
+            <div class="progress-bar">
+                <div class="progress fill-PT"></div>
+            </div>
+            <p>git <img class="img-fluid" style="height: 8vh;" src="assests/Skills/icons8-git-96.png" alt=""></p>
+            <div class="progress-bar">
+                <div class="progress fill-PT"></div>
+            </div>
+            <p>Github <img class="img-fluid" style="height: 8vh;" src="assests/Skills/icons8-github-logo-94.png" alt=""></p>
+            <div class="progress-bar">
+                <div class="progress fill-PT"></div>
+            </div>
+        </div>
+    </div>
+</div> 
+</div>
+<!-- Eductions -->
+<div class="Educationss">
+<h2 class="i-am"> Educations </h2>
+<div class="main-Educations">
+
+<div class="School"> 
+<h2 class="E-head">Secondary School</h2>
+<p>A.T.ZAMBARE MADHYAMIK VIDYALAY JALGAON</p>
+<span> 2017 --- 2018</span><br>
+<buttton class="btn-skill"> 71% - 100%</buttton> 
+<div class="round"> </div>
+<p>
+    Completed my 10th grade from A. T. Zambre School, securing 71%. This achievement reflects my strong academic foundation and dedication to learning.
+</p>
+  <a href="assests/Certificate/10th.jpg">Certificate ↗</a>  
+
+</div><br><br>
+<div class="College">
+    <h2 class="E-head">Secondary College</h2>
+    <p>Adv. Sitaram (Babanbhau) Anandramji Baheti Arts and Commerce College JALGAON</p>
+    <span>2019 --- 2020</span><br>
+<buttton class="btn-skill"> 64% - 100%</buttton> 
+
+<div class="round"> </div>
+
+    <p>Completed my 12th grade in the Science stream from Adv. Sitaram (Babanbhau) Anandramji Baheti Arts and Commerce College JALGAON, securing 64%. This academic milestone enhanced my analytical thinking and problem-solving abilities, laying a strong foundation for my technical education.</p>
+    <a href="assests/Certificate/12th.jpg">Cerficate ↗</a>
+</div><br><br>
+<div class="Degree">
+<h2 class="E-head">Bachelor Of Engineering</h2>
+ <p>Sandip Institute of Technology Research Center Nashik</p>
+    <span>2020 --- 2024</span><br>
+<buttton class="btn-skill"> 7.4 - 10 CGPA</buttton> 
+
+<div class="round"> </div>
+    <p>Graduated with a Bachelor's degree in Computer Science from Sandip Institute of Technology & Research Center, Nashik, securing a CGPA of 7.10. This accomplishment underscores my commitment to excellence and my strong foundation in computer science, preparing me for a successful career in technology.</p>
+    <a href="assests/Certificate/Certificate.jpg">Certificate ↗</a>
+</div>
+<br><br>
+</div>
+</div>
+<!-- Experinece -->
+ <div class="Experiencess">
+<h2 class="i-am"> experience </h2>
+<div class="timeline">
+  
+    <h2 class="timeline__item timeline__item--year">2024</h2>
+    
+    <div class="timeline__item">
+      <h3 class="timeline__title">CodeClause</h3>
+      <h5 class="E-head"> Web Devloper </h5>
+      <span></span>
+      <p class="E-details">- Built responsive websites using HTML, CSS, and JavaScript.  <br>
+        - Improved website design and usability for end-users.  </p>
+        <a class="link" href="assests/Certificate/Internship Completion Certificate CODE CLAUSE.pdf">Certificate ↗</a>
+    </div>
+        
+    <div class="timeline__item">
+      <h3 class="timeline__title">Internship Studio</h3>
+        <h5 class="E-head"> Web Devloper and Design</h5>
+      <p class="E-details">- Designed intuitive UI/UX for client projects, ensuring responsiveness across devices. <br> 
+       - Developed interactive features using JavaScript and Bootst</p>
+       <a class="link" href="assests/Certificate/Rupesh Sharma - Website Design and Development Internship - Training.pdf">Certificate ↗</a>
+    </div>
+    
+    <h2 class="timeline__item timeline__item--year">2025</h2>
+    
+    <div class="timeline__item">
+      <h3 class="timeline__title">IT Education Center</h3>
+        <h5 class="E-head">Full Stack Devloper</h5>
+        <p class="E-details">Full Stack Developer Internship at IT EDUCATION CENTER PUNE (September 2024 - March 2025) Gained experience in full-stack development, working on various projects involving front-end and back-end technologies. Developed and implemented web applications using HTML, CSS, JavaScript, and Python. Collaborated with a team of developers to design, develop, and test software solutions.</p>
+        <a class="link" href="">Certificate ↗</a>
+    </div>
+</div>
+</div>
+<hr class="text-light">
+    
+  <!-- Contact  -->
+  <h2 class="i-am" id="Contact"> Contact <br>  </h2>
+  <div id="contact" class="d-lg-flex justify-content-evenly">
+<div class="form">
+ <input type="text" name="FN" id="FN" placeholder="First_Name"> &nbsp;&nbsp;&nbsp;
+<input type="text" name="LN" id="LN" placeholder="Last_Name"> <br><br><br>
+<input type="number" name="MN" id="MN" placeholder="Mobile_Number"><br><br><br>
+<input type="text" name="Subject" id="Subject" placeholder="Enter Your Subject"><br><br><br>
+<textarea name="message" id="message" placeholder="Enter your Message"></textarea><br><br><br>
+<button class="btn btn-outline-info" style="border-radius: 30px;">Sumbit</button>
+</div>
+
+<div class="containerr">
+    <div class="profile">
+        <img class="profile-img" src="assests/Profile/IMG_20221209_223043_188.jpg" alt="ProfileImage">
+        <div class="profile-name">
+            <p class="user-name">Rupesh Sharm@</p>
+            <p class="user-id">rupeshsharma1774@</p>
+        </div>
+
+<div class="profile-details">
+    <div class="designation">Software Developer</div>
+    <button id="btn" class="btn btn-outline-secondary">Connect</button>
+</div>
+</div>
+</div>
+</div><br><br><br>
+
+<div class="contact-info d-flex flex-wrap justify-content-evenly align-items-center gap-4 text-light">
+    <div class="d-flex align-items-center gap-2">
+        <img src="assests/Social/icons8-call-60.png" alt="Call Icon" class="icon">
+        <p>+91 8767776344</p>
+    </div>
+    
+    <div class="d-flex align-items-center gap-2">
+        <img src="assests/Social/icons8-gmail-60.png" alt="Gmail Icon" class="icon">
+        <p>rupeshsharma1774<br>@gmail.com</p>
+    </div>
+    
+    <div class="d-flex align-items-center gap-2">
+        <img src="assests/Social/icons8-location-60.png" alt="Location Icon" class="icon">
+        <p>Pune, India</p>
+    </div>
+</div>
+
+
+
+
+<footer>
+    <h1 class="foo fw-bold text-center text-uppercase ">Porfolio</h1><br>
+    <div class="d-flex justify-content-center">
+    <img style="height: 20vh; border-radius: 50px;" class="img-fluid  float-start" src="assests/Logo/RS.webp" alt="">
+</div>
+    <br>
+    <div class="d-flex justify-content-center">
+       <a href="https://www.linkedin.com/in/rupeshsharma777/"> <img id="img-footer" src="assests/Social/icons8-linkedin-96.png" alt=""></a>
+       <a href="https://profile.indeed.com/?hl=en_IN&co=IN&from=gnav-jobseeker-profile--profile-one-frontend"> <img class="bg-info" id="img-footer" src="assests/Social/icons8-indeed-96.png" alt=""></a>
+     <a href="https://github.com/RUPESH1774"><img id="img-footer" src="assests/Social/icons8-github-96.png" alt=""></a>
+    </div><br>
+    <p class="last text-light text-center">Develop By Rupesh Sharm@ | &copy; All Right Reserverd</p>
+</footer>
+</div>
+<script src="App.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
