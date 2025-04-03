@@ -1,1 +1,2 @@
 My Portflio 
+A Portfolio Website is a personal online space to showcase My skills, projects, and achievements. It helps professionals, developers, designers, and freelancers present My work to potential employers or clients.

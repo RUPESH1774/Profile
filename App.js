@@ -28,10 +28,13 @@ const textLoad = () => {
 textLoad();
 setInterval(textLoad, 9000); 
 
-
+// navbar
 function toggleMenu() {
     document.getElementById("sideNav").classList.toggle("active");
 }
+// carsoul
+
+
 // skills
 document.addEventListener("DOMContentLoaded", function() {
     const progressBars = document.querySelectorAll(".progress");
