@@ -6,9 +6,6 @@ window.addEventListener("load", () => {
 });
 
 
-
-
-
 const text = document.querySelector("h5");
 
 const textLoad = () => {
@@ -33,8 +30,23 @@ function toggleMenu() {
     document.getElementById("sideNav").classList.toggle("active");
 }
 // carsoul
+const hidden = document.querySelector('.hide');
+hidden.style.display = 'none';
 
+const show = document.querySelector('.hide-button');
+show.addEventListener('click', () => {
+    hidden.style.display = 'block';  
+    show.style.display = 'none'
+    showing.style.display='block'
+});
 
+const showing = document.querySelector('.show-button')
+showing.style.display= 'none'
+showing.addEventListener('click',()=>{
+    hidden.style.display = 'none';  
+    show.style.display = 'block'
+    showing.style.display='none'
+})
 // skills
 document.addEventListener("DOMContentLoaded", function() {
     const progressBars = document.querySelectorAll(".progress");
