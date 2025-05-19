@@ -33,19 +33,21 @@ function toggleMenu() {
 const hidden = document.querySelector('.hide');
 hidden.style.display = 'none';
 
-const show = document.querySelector('.hide-button');
+const hiding = document.querySelector('.hide-button')
+hiding.style.display= 'none'
+
+const show = document.querySelector('.show-button');
 show.addEventListener('click', () => {
     hidden.style.display = 'block';  
     show.style.display = 'none'
-    showing.style.display='block'
+    hiding.style.display='block'
 });
 
-const showing = document.querySelector('.show-button')
-showing.style.display= 'none'
-showing.addEventListener('click',()=>{
+
+hiding.addEventListener('click',()=>{
     hidden.style.display = 'none';  
     show.style.display = 'block'
-    showing.style.display='none'
+    hiding.style.display='none'
 })
 // skills
 document.addEventListener("DOMContentLoaded", function() {

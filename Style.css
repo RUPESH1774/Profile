@@ -517,6 +517,17 @@ button {
   
 /* carsoul */
 
+.hide {
+    transition: opacity 0.5s ease;
+  }
+  .hide.show {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+  }
 /* Buttons Menu */
 
 .Menu {

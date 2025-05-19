@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Transition Example</title>
+<style>
+  .hide {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s ease;
+  }
+  .hide.show {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+  }
+</style>
+</head>
+<body>
+
+<button class="hide-button">Show Content</button>
+<button class="show-button" style="display:none;">Hide Content</button>
+
+<div class="hide" style="margin-top:20px; padding:20px; background:#ddd;">
+  <h3>This content fades in and out</h3>
+  <p>Here is some content that will smoothly appear and disappear.</p>
+</div>
+
+<script>
+  const hidden = document.querySelector('.hide');
+  const show = document.querySelector('.hide-button');
+  const showing = document.querySelector('.show-button');
+
+  show.addEventListener('click', () => {
+    hidden.classList.add('show');
+    show.style.display = 'none';
+    showing.style.display = 'inline-block';
+  });
+
+  showing.addEventListener('click', () => {
+    hidden.classList.remove('show');
+    show.style.display = 'inline-block';
+    showing.style.display = 'none';
+  });
+</script>
+
+</body>
+</html>
