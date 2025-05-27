@@ -140,7 +140,9 @@ body {
 .nav-links a:hover {
     color: #9b7658;
 }
-
+.logo img{
+    height: 13vh;
+}
 .menu-toggle {
     display: none;
     font-size: 24px;
@@ -420,6 +422,7 @@ button {
 .p-btn{
     display: flex;
     justify-content:right;
+       flex-wrap: wrap;
 
 }
 .btn-skill{
@@ -1134,6 +1137,14 @@ padding: 20px;
 }
 
 /* medi screen */
+@media (max-width:1178px) {
+    #E-commerce{
+        height: 70vh;
+    }
+    #Gym-site1{
+        height: 70vh;
+    }
+}
 @media (max-width:1138px) {
     #Gym-site1{
         height: 70vh;
@@ -1247,13 +1258,115 @@ padding: 20px;
       
     }
 
-@media screen and (max-width:400px) and (min-width:0px) {
+@media (max-width:480px){
+    #P-Voting1{
+        height: 160vh;
+    }
+    .p-btn{
+        margin-left: 150px;
+    }
+    #P-Todo_List{
+        height: 140vh;
+    }
+    #Gym-site1{
+        height: 150vh;
+    }
+    #E-commerce{
+        height: 140vh;
+    }
+    #my-img{
+        height: 40vh;
+    }
+   
+}
+@media (max-width:430px) {
+    #E-commerce{
+        height: 150vh;
+    }
+    #P-Voting1{
+        height: 200vh;
+    }
+    #P-Todo_List{
+        height: 160vh;
+    }
+    .containerr{
+        margin-left: -30px;
+    }
+}
+@media (max-width:350px) {
+    #E-commerce{
+        height: 170vh;
+    }
+    .containerr{
+        margin-left: -45px;
+        width: 50vh;
+        border: none;
+        padding: 0px;
+    }
+    .profile-img{
+        width: 40vh;
+     
+    }
+    .profile{
+        border: none;
+        height: 100vh;
+    }
+  
+}
+@media (max-width:325px) {
+    #Gym-site1{
+        height: 170vh;
+    }
+    #E-commerce{
+        height: 180vh;
+    }
+}
+@media (max-width:308px) {
+    #P-Voting1{
+        height: 220vh;
+    }
+}
+@media (max-width:296px) {
+    #E-commerce{
+        height: 210vh;
+    }
+}
+@media (max-width:290px) and (min-width:260px){
+    #P-Todo_List{
+        height: 180vh;
+    }
+    #P-Voting1{
+        height: 270vh;
+    }
+    #Gym-site1{
+        height: 200vh;
+    }
+}
+@media (max-width:259px) {
+    #p-btn{
+        margin-left: -20px;
+    }
+    #E-commerce{
+        height: 210vh;
+    }
+     #P-Todo_List{
+        height: 180vh;
+    }
+    #P-Voting1{
+        height: 270vh;
+    }
+    #Gym-site1{
+        height: 200vh;
+    }
+}
+
+@media screen and (max-width:492px) and (min-width:0px) {
     #my-img{
         height: 30vh;
         margin-left: 80px;
     }
     .btn-skill{
-        margin-left: -0px;
+        margin-left: -20px;
     }
     .P-Voting{
         height: 10vh;
@@ -1281,7 +1394,17 @@ padding: 20px;
     .loader{
         margin-left: 130px;
     }
+    .logo img{
+        height: 10vh;
+    }
+    .navbar{
+        height: 17vh;
+    }
+    .form #LN{
+        margin-top: 20px;
+    }
 }
+
 
 
 
