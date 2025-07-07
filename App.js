@@ -1,7 +1,7 @@
 window.addEventListener("load", () => {
     setTimeout(() => {
-        document.querySelector(".progress-loader").style.display = "none"; // Hide loader
-        document.querySelector(".loading-content").style.display = "block"; // Show content
+         document.querySelector(".progress-loader").style.display = "none"; // Hide loader
+         document.querySelector(".loading-content").style.display = "block"; // Show content
     }, 3000); // Change 3000ms (3 seconds) to your preferred loading time
 });
 
